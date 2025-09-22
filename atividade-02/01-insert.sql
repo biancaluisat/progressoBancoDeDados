@@ -11,7 +11,7 @@ CREATE TABLE produtos (
 
 INSERT INTO produtos (nome, marca, preco, categoria, estoque)
 VALUES 
-('Hidratante facial', 'Guarnier', 39, 'SkinCare', 564),
+('Hidratante facial', 'Garnier', 39, 'SkinCare', 564),
 ('Blush em Stick', 'Franciny Ehlke', 49, 'Maquiagem', 564),
 ('Iluminador líquido', 'Rare Beauty', 150, 'Maquiagem', 352),
 ('Sabonete Facial', 'Creamy', 50, 'SkinCare', 220),
