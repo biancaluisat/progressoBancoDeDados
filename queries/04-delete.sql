@@ -6,3 +6,5 @@ WHERE id = 13;
 
 DELETE FROM usuarios
 WHERE pontos < 2000;
+
+SELECT COUNT(*) AS total_usuarios FROM usuarios;
