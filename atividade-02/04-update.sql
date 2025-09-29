@@ -1,6 +1,8 @@
 UPDATE produtos SET preco = preco - ((20 * preco)/100)
 WHERE categoria = 'SkinCare';
 
+UPDATE produtos SET estoque = estoque + 50
+
 UPDATE produtos set preco = ((15 * preco)/100) + preco
 WHERE marca = 'Garnier';
 
